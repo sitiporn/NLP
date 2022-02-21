@@ -9,3 +9,5 @@ T ~ the number of pairs that come from the same classes
 
 t ~ temperature value 
 
+Therefore, the idea of this equation is that the model must maximize probability of the similarity value of samples that come from the same classes. To do this, they find similarity of embededing vectors (same classes) and divied by similarity of embededing vector i with all samples in a batch.
+
